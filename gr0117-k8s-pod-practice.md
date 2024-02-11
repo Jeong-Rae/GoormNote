@@ -95,7 +95,7 @@ pod 제거는 `kubectl delete pod `을 이용할 수 있다.
 > Create a new pod with the name `redis` and the image `redis123`.  
 > Use a pod-definition YAML file. And yes the image name is wrong!
 
-yaml을 통하여 k8s 컴포넌트를 생성할 때는 `kubectl create -f {file}` 또는 `kubectl apply -f {file}`을 사용할 수 있다.
+yaml을 통하여 k8s 리소스를 생성할 때는 `kubectl create -f {file}` 또는 `kubectl apply -f {file}`을 사용할 수 있다.
 
 이때 사용될 yaml은 공식문서에 있는 pod 기본 yaml을 변경하여 사용한다.
 
